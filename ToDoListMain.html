@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            To Do List
+        </title>
+
+        <link href="ToDoListStyle.css" rel="stylesheet"/>
+    </head>
+
+    <body>   
+        <div class="main" id = "root">
+            <div class="top" id = "panel1">
+                
+                <div class="border">
+                    <p style="font-size: 25px;">Add Task</p>
+                </div>
+
+                <div class="border">
+                    <input maxlength="20" id = "field" style="height: 20px; font-size: 20px; width: 80%;" type="text" placeholder="Enter task">
+                </div>
+
+                <div class="border">
+                    <button id = "adddelete"class="addbtn" onclick="initiate(null)">Add</button>
+                </div>
+            </div>
+
+            <div class="bottom" id = "panel2">
+            </div>
+        </div>
+
+        <script src="ToDoListJS.js">
+        </script>
+    
+</body>
+</html>

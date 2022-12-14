@@ -1,0 +1,139 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    width: 80%;
+    max-width: 500px;
+    height: 500px;
+}
+
+.top{
+    height: 30%;
+    min-height: 30%;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bottom{
+    background-color: lightpink;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    overflow-y: auto;
+    justify-items: center;
+
+}
+
+.card{
+    background-color: lightgreen;
+    height: 60px;
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+p{
+    margin: 0 0 0 20px ;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+button{
+    margin: 0 20px 0 0;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(255, 89, 60);
+    border: none;
+    font-family: arial;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.deletebtn{
+    margin: 0 20px 0 0;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(255, 89, 60);
+    border: none;
+    font-family: arial;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.disabledbtn{
+    margin: 0 18px 0 0;
+    padding: 5px 5px 5px 5px;
+    background-color:white ;
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    font-family: arial;
+    color: lightgray;
+    font-weight: 700;
+}
+
+.addbtn{
+    margin: 0 20px 0 0;
+    padding: 10px 10px 10px 10px;
+    background-color: lightgreen;
+    border: solid;
+    border-width: 1px;
+    font-family: arial;
+    color: white;
+    font-weight: 700;
+}
+
+.addbtnd{
+    margin: 0px 0px 0px 3px;
+    padding: 10px 0px 10px 0px;
+    background-color: red;
+    border: solid;
+    border-width: 1px;
+    font-family: arial;
+    color: white;
+    font-weight: 700;
+}
+
+.addbtnd:hover{
+    cursor: pointer;
+    color: red;
+    border: solid;
+    border-width: 1px;
+    border-color: red;
+    background-color: white;
+}
+
+.addbtn:hover{
+    cursor: pointer;
+    color: lightgreen;
+    border: solid;
+    border-width: 1px;
+    border-color: lightgreen;
+    background-color: white;
+}
+
+.deletebtn:hover{
+    cursor:pointer;
+    color: rgb(255, 89, 60);
+    background-color: white;
+}
+
+.deletebtn:active,.addbtnd:active,.addbtn:active{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+.border{
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
